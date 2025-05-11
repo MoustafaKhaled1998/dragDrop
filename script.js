@@ -1,6 +1,8 @@
 document.querySelector("#textVal").focus();
+
 var addBtn = document.querySelector(".add-project-btn");
 addBtn.addEventListener('click', function () { addNewFn() });
+
 var containers = document.getElementsByClassName('tasksSection');
 for (let i = 0; i < containers.length; i++) {
     containers[i].addEventListener('drop', dropFn);
