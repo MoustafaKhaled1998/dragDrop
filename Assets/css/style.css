@@ -1,0 +1,155 @@
+/* general */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+:root {
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+.icon {
+    width: 25%;
+    max-width: 32px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+    padding: 0 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: rgba(40, 41, 56, 0.7);
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+}
+
+
+/* navbar */
+
+.navbar {
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(20, 20, 20, 0.1);
+    transition: background-color 0.3s ease;
+     backdrop-filter: blur(1px);
+    z-index: 1000;
+
+}
+
+nav.scrolled {
+    background-color: #1C1E53;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.navbar__items {
+    display: flex;
+}
+
+.navbar a{
+    color: white;
+}
+
+
+
+
+
+.backgroundDiv {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+    position: relative;
+    
+}
+
+.btnPrev {
+    position: absolute;
+    bottom: 50%;
+    left: 5%;
+    transform: translateX(-50%);
+}
+.btnNext{
+        position: absolute;
+    bottom: 50%;
+    right: 5%;
+    transform: translateX(50%);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hero__card{
+    width: 700px;
+    height: 300px;
+    background-color: aqua;
+    position: relative;
+    left: 10%;
+    top: 100%;
+        transform: translate(0 , -100%);
+    }
+
+.card__content{
+    position: relative;
+}
+
+
+
+
+
+
+.Date {
+    display: none;
+}
